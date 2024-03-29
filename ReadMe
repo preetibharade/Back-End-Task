@@ -1,0 +1,5 @@
+This API defines a route (POST /api/posts) for creating a new blog post. It expects the request body to contain title, content, and author fields. It then validates the request body, creates a new BlogPost document using Mongoose, and saves it to the MongoDB database.
+
+User need to have MongoDB running locally on port 27017 for this example to work. Adjust the MongoDB connection string as necessary.
+
+User can test this API using tools like Postman or by sending HTTP requests from his/her frontend application.
